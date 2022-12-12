@@ -33,7 +33,7 @@
 
 			sampler2D _FrostTex;
 			float4 _FrostTex_ST;
-
+			//fixed4 _Color
 			float _FrostIntensity;
 
 			sampler2D _GrabBlurTexture_0;
@@ -72,6 +72,7 @@
 				
 				return refraction;
 			}
+
 			ENDCG
 		}
 	}
